@@ -1,0 +1,4 @@
+rootProject.name = 'WebAutomation'
+include 'src:test:com.candyMapper.testPages'
+findProject(':src:test:com.candyMapper.testPages')?.name = 'com.candyMapper.testPages'
+
