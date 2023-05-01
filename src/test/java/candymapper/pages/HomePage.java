@@ -12,7 +12,7 @@ public class HomePage extends TestBase {
     @Test
     public void VerifyTitle() {
 
-        extentTest=report.createTest("Verify Title");
+
         String title = driver.getTitle();
 
         Assert.assertEquals(title, "CandyMapper.Com", "Web Title is verified");
